@@ -11,9 +11,13 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.842.0",
+    "@aws-sdk/s3-request-presigner": "^3.842.0",
+    "cors": "^2.8.5",
     "dotenv": "^16.6.0",
     "express": "^5.1.0",
     "http-status-codes": "^2.3.0",
+    "mongoose": "^8.16.2",
     "winston": "^3.17.0"
   }
 }
