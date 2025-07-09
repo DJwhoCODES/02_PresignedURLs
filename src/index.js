@@ -1,6 +1,7 @@
 const express = require("express");
 const { serverConfig, Logger } = require("./config");
 const apiRoutes = require("./routes");
+const cors = require("cors");
 
 const app = express();
 app.use(cors());
